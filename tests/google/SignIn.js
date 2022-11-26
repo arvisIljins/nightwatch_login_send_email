@@ -1,7 +1,7 @@
 const url = "https://mail.google.com/";
 const loginEmail = "testarvis@gmail.com";
 const password = "test123test";
-const emailWhoToSend = "irbeiljina@gmail.com";
+const emailWhoToSend = "arviiljins@gmail.com";
 const loginInputCssSelector = "#identifierId";
 const loginEmailNextStepCssSelector = "#identifierNext > div > button";
 const passwordClickCssSelector = "#password";
@@ -9,11 +9,12 @@ const passwordCssSelector =
   "#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input";
 const passwordNextStepCssSelector = "#passwordNext > div > button";
 const compostButtonCssSelector = 'div[jscontroller="eIu7Db"]';
-const addEmailForMessageCssSelector = "#:a7";
-const addSubjectCssSelector = "#:76";
+const addEmailForMessageCssSelector = 'input[peoplekit-id="BbVjBd"]';
+const addSubjectCssSelector = 'input[name="subjectbox"]';
 const subjectMessage = "Friendly reminder!!!";
-const messageBodyCssSelector = "#:8d";
-const messageBody = "Es Tevi mīlu";
+const messageBodyCssSelector = 'div[aria-label="Message Body"]';
+const messageBody = "Testa emails";
+const buttonSendMessageCssSelector = 'div[data-tooltip="Send ‪(⌘Enter)‬"]';
 
 module.exports = {
   "Send email": (browser) => {
@@ -27,9 +28,11 @@ module.exports = {
       .setValue(passwordCssSelector, password)
       .click(passwordNextStepCssSelector)
       .click(compostButtonCssSelector)
+      .pause(1000)
       .setValue(addEmailForMessageCssSelector, emailWhoToSend)
       .setValue(addSubjectCssSelector, subjectMessage)
       .setValue(messageBodyCssSelector, messageBody)
+      .click(buttonSendMessageCssSelector)
       .pause(4000);
   },
 };
