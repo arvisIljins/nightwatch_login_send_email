@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="0"
+            tests="1">
+
+  <testsuite name="SignIn"
+    errors="3" failures="0" hostname="" id="" package="SignIn" skipped="0"
+    tests="1" time="29.37" timestamp="">
+  
+    <testcase name="Send email" classname="SignIn" time="29.37" assertions="0">
+    <error message="An error occurred while running .setValue() command on &lt;#:8d&gt;:   (Session info: chrome=107.0.5304.121),  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Mac OS X 13.0.1 arm64); invalid selector: An invalid or illegal selector was specified" type="error"><![CDATA[
+    Error
+    at Send email (/Users/arvisiljins/Desktop/Projekti/nightwatch/tests/google/SignIn.js:32:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .setValue() command on &lt;#:a7&gt;:   (Session info: chrome=107.0.5304.121),  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Mac OS X 13.0.1 arm64); invalid selector: An invalid or illegal selector was specified
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;invalid selector: An invalid or illegal selector was specified&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=107.0.5304.121)&#34;,&#34;  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Mac OS X 13.0.1 arm64)&#34;]},&#34;errorStatus&#34;:32,&#34;error&#34;:&#34;The supplied argument was an invalid selector (e.g. XPath/CSS). – invalid selector: An invalid or illegal selector was s...&#34;,&#34;httpStatusCode&#34;:200}
+       at Send email (/Users/arvisiljins/Desktop/Projekti/nightwatch/tests/google/SignIn.js:30:8)
+       at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;#:76&gt;:   (Session info: chrome=107.0.5304.121),  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Mac OS X 13.0.1 arm64); invalid selector: An invalid or illegal selector was specified
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;invalid selector: An invalid or illegal selector was specified&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=107.0.5304.121)&#34;,&#34;  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Mac OS X 13.0.1 arm64)&#34;]},&#34;errorStatus&#34;:32,&#34;error&#34;:&#34;The supplied argument was an invalid selector (e.g. XPath/CSS). – invalid selector: An invalid or illegal selector was s...&#34;,&#34;httpStatusCode&#34;:200}
+       at Send email (/Users/arvisiljins/Desktop/Projekti/nightwatch/tests/google/SignIn.js:31:8)
+       at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;#:8d&gt;:   (Session info: chrome=107.0.5304.121),  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Mac OS X 13.0.1 arm64); invalid selector: An invalid or illegal selector was specified
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;invalid selector: An invalid or illegal selector was specified&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=107.0.5304.121)&#34;,&#34;  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Mac OS X 13.0.1 arm64)&#34;]},&#34;errorStatus&#34;:32,&#34;error&#34;:&#34;The supplied argument was an invalid selector (e.g. XPath/CSS). – invalid selector: An invalid or illegal selector was s...&#34;,&#34;httpStatusCode&#34;:200}
+       at Send email (/Users/arvisiljins/Desktop/Projekti/nightwatch/tests/google/SignIn.js:32:8)
+       at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
