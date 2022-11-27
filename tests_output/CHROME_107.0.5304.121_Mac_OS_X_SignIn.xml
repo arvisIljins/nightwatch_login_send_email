@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="SignIn"
     errors="0" failures="0" hostname="" id="" package="SignIn" skipped="0"
-    tests="1" time="15.42" timestamp="">
+    tests="2" time="12.39" timestamp="">
   
-    <testcase name="Send email" classname="SignIn" time="15.42" assertions="0">
+    <testcase name="Login gmail" classname="SignIn" time="9.923" assertions="0">
+    </testcase>
+  
+    <testcase name="Send mail" classname="SignIn" time="2.471" assertions="0">
     </testcase>
   
 
